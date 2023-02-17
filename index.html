@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- tailwind css link here  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="w-11/12 mx-auto">
+    <header class="mt-6">
+        <h1 class="text-center text-5xl font-semibold text-[#31A5AC]">Money Master💰</h1>
+    </header>
+    <main class="mt-10">
+        <section class="flex gap-10">
+            <div class="w-7/12 ">
+                <img class="w-full h-[79%]" src="./img/banner.png" alt="">
+            </div>
+
+            <div class="w-5/12 h-[70%] bg-[#efefef] p-10 rounded-lg">
+                <div>
+                    <div class=" text-center">
+                        <h2 class="font-bold text-center text-3xl text-gray-600 mb-4">Income</h2>
+                        <label for="income-field" class="text-xl">Income :</label>
+                        <input class="w-2/4 mx-auto px-3 py-2 rounded-md focus:outline-teal-100" type="text"
+                            id="income-field" placeholder="Type your income">
+                    </div>
+
+                    <div class="text-center my-4">
+                        <h2 class="font-bold text-center text-3xl text-gray-600 mb-4">Expenses</h2>
+                        <div>
+                            <label for="food-field" class="text-xl">Food :</label>
+                            <input class="-mr-5 w-2/4 mx-auto px-3 py-2 rounded-md focus:outline-teal-100" type="text"
+                                id="food-field" placeholder="Type your income">
+                        </div>
+                        <div class="my-3">
+                            <label for="rent-field" class="text-xl">Rent :</label>
+                            <input class="-mr-7 w-2/4 mx-auto px-3 py-2 rounded-md focus:outline-teal-100" type="text"
+                                id="rent-field" placeholder="Type your income">
+                        </div>
+                        <div>
+                            <label for="clothes-field" class="text-xl">Clothes :</label>
+                            <input class=" w-2/4 mx-auto px-3 py-2 rounded-md focus:outline-teal-100" type="text"
+                                id="clothes-field" placeholder="Type your income">
+                        </div>
+                    </div>
+
+                    <button
+                        class=" mx-auto block px-10 text-lg font-semibold  py-2 text-white rounded-md bg-[#31A5AC]">Calculate</button>
+
+                    <h2 class="font-bold text-center text-2xl text-gray-600 my-4">Total Expenses : 5500</h2>
+                    <h2 class="font-bold text-center text-2xl text-gray-600 my-4">Balance: 5500</h2>
+
+                    <div class="flex items-center justify-center">
+                        <label for="save-field" class="text-xl">Save :</label>
+                        <input class=" w-2/4 mx-auto px-3 py-2 rounded-md focus:outline-teal-100" type="text"
+                            id="save-field" placeholder="Type your income">
+                        <span class="mx-3">%</span>
+
+                        <button
+                            class=" mx-auto block px-10 text-lg font-semibold  py-2 text-white rounded-md bg-[#31A5AC]">Save</button>
+                    </div>
+
+                    <h2 class="font-bold text-center text-2xl text-gray-600 my-4">Saving Amount: 2000</h2>
+                    <h2 class="font-bold text-center text-2xl text-gray-600 my-4">Remaining Balance: 2500</h2>
+
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
